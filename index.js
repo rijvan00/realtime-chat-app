@@ -1,7 +1,7 @@
 var http = require('http')
 var fs = require('fs')
 var path = require('path')
-const APP_PORT = process.env.APP_PORT || 3000
+const APP_PORT = process.env.PORT || 3000
 const app = http.createServer(requestHandler)
 
 app.listen(APP_PORT)
